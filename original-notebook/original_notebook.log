@@ -1,0 +1,82 @@
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:325: SyntaxWarning: invalid escape sequence '\p'
+  values_mpipipi,bins_mpipipi,patches_mpipipi = ax[1].hist(m_pipipi, bins = 150, range = [4500, 6000],histtype='step',label='$m_{\pi\pi\pi}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:326: SyntaxWarning: invalid escape sequence '\p'
+  values_mKpipi,bins_mKpipi,patches_mKpipi = ax[2].hist(m_Kpipi, bins = 300, range = [4500, 6000],histtype='step',label='$m_{K\pi\pi}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:345: SyntaxWarning: invalid escape sequence '\p'
+  ax[1].hist(np.sqrt(mpipilow), bins = 500, range = [200, 5200],histtype='step',label='$m_{\pi\pi,low}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:346: SyntaxWarning: invalid escape sequence '\p'
+  ax[1].hist(np.sqrt(mpipihigh), bins = 500, range = [200, 5200],histtype='step',label='$m_{\pi\pi,high}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:348: SyntaxWarning: invalid escape sequence '\p'
+  ax[2].hist(np.sqrt(mKpi), bins = 500, range = [200, 5200],histtype='step',label='$m_{K\pi}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:349: SyntaxWarning: invalid escape sequence '\p'
+  ax[2].hist(np.sqrt(mpipi), bins = 500, range = [200, 5200],histtype='step',label='$m_{\pi\pi}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:383: SyntaxWarning: invalid escape sequence '\p'
+  values_mpipipi,bins_mpipipi,patches_mpipipi = ax[1].hist(m_pipipi, bins = 300, range = [5000, 5600],histtype='step',label='$m_{\pi\pi\pi}$')
+/home/vpadulan/Programs/project-nursena/original-notebook/original_notebook.py:384: SyntaxWarning: invalid escape sequence '\p'
+  values_mKpipi,bins_mKpipi,patches_mKpipi = ax[2].hist(m_Kpipi, bins = 300, range = [5000, 5600],histtype='step',label='$m_{K\pi\pi}$')
+Starting execution at: 11:55
+Input data variables:
+['B_FlightDistance', 'B_VertexChi2', 'H1_PX', 'H1_PY', 'H1_PZ', 'H1_ProbK', 'H1_ProbPi', 'H1_Charge', 'H1_IPChi2', 'H1_isMuon', 'H2_PX', 'H2_PY', 'H2_PZ', 'H2_ProbK', 'H2_ProbPi', 'H2_Charge', 'H2_IPChi2', 'H2_isMuon', 'H3_PX', 'H3_PY', 'H3_PZ', 'H3_ProbK', 'H3_ProbPi', 'H3_Charge', 'H3_IPChi2', 'H3_isMuon']
+Read 100000 events
+Read 200000 events
+Read 300000 events
+Read 400000 events
+Read 500000 events
+Read 600000 events
+Read 700000 events
+Read 800000 events
+Read 900000 events
+Read 1000000 events
+Read 1100000 events
+Read 1200000 events
+Read 1300000 events
+Read 1400000 events
+Read 1500000 events
+Read 1600000 events
+Read 1700000 events
+Read 1800000 events
+Read 1900000 events
+Read 2000000 events
+Read 2100000 events
+Read 2200000 events
+Read 2300000 events
+Read 2400000 events
+Read 2500000 events
+Read 2600000 events
+Read 2700000 events
+Read 2800000 events
+Read 2900000 events
+Read 3000000 events
+Read 3100000 events
+Read 3200000 events
+Read 3300000 events
+Read 3400000 events
+Read 3420295 events
+Plotting 1D histogram
+Plotting 2D histogram
+Kmax 0.7 piAll 0.6 piSum 2.4 S 840.5 B 1030.5 S/B 0.8156234837457544 sig 19.431253786892533
+Fit results with chi2/ndf 323.36201197029754 / 188
+Par 1: 1473.792339 +/- 425.854464
+Par 2: 23.075183 +/- 6.254829
+Par 3: 12381.014350 +/- 97.998159
+Par 4: 5285.300662 +/- 0.131211
+Par 5: 17.208313 +/- 0.139810
+Par 6: 15.248770 +/- 3.631915
+Par 7: 386.152048 +/- 114.644156
+Fit results with chi2/ndf 242.61452411677823 / 200
+Par 1: 4159.938111 +/- 797.976955
+Par 2: 28.562503 +/- 4.267209
+Par 3: 8557.376224 +/- 358.987555
+Par 4: 5282.699940 +/- 0.791210
+Par 5: 22.036820 +/- 0.884760
+Par 6: 274.387901 +/- 7.825047
+Par 7: 1056.771522 +/- 87.297780
+Fit results with chi2/ndf 286.9549704585693 / 200
+Par 1: 18380.701541 +/- 848.778232
+Par 2: 28.001197 +/- 0.978935
+Par 3: 31426.545203 +/- 322.920470
+Par 4: 5284.754690 +/- 0.180444
+Par 5: 18.988481 +/- 0.195334
+Par 6: 187.791629 +/- 10.430488
+Par 7: 470.587337 +/- 37.262508
+Total execution time: 145 min 36 sec
